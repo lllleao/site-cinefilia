@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/filme.png" type="image/x-icon">
+    <title>
+        Cinefilia
+    </title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="cabecalho">
+        <div class="container">
+            <h1>
+                <a href="#">
+                    <i class="bi bi-camera-reels"></i>
+                    Cinefilia
+                </a>
+            </h1>
+            <button type="button" class="btn navbar-toggler mb-3" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon">
+
+                </span>
+            </button>
+            <nav id="menu" class="collapse navbar-collapse justify-content-end">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a href="#sobre" class="nav-link active">
+                            <i class="pe-2 bi bi-house"></i>
+                            Sobre a Cinefilia
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#premiacoes" class="nav-link">
+                            <i class="pe-2 bi bi-award"></i>
+                            Premiações
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#generos" class="nav-link">
+                            <i class="pe-2 bi bi-film"></i>
+                            Genêros de Filmes
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="pe-2 bi bi-chat-left-text me-1"></i>
+                            Fale Conosno
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-indicators">
+                    <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+                <div class="carousel-inner slide">
+                    <div class="carousel-item active">
+                        <img src="img/slides/cinema2.jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slides/cinema1.jpeg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/slides/cinema3.jpg" alt="">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+            <div class="container pt-5 pb-5 panorama-geral">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img src="img/cine.jpg" alt="" class="w-100 rounded">
+                    </div>
+                    <div class="col-md-7 mt-4 mt-md-0">
+                        <h2 class=""><span class="text-colored">
+                            <i class="bi bi-hourglass-split"></i>
+                            Sobre o</span> nascimento do cinema
+                        </h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde eligendi laudantium officia voluptatem nesciunt doloremque corrupti id eaque blanditiis itaque quo, in fugiat natus nulla dolores adipisci, ea deserunt dolore!</p>
+                        <h2 class=""><span class="text-colored">
+                            <i class="bi bi-camera-video"></i>
+                            Sobre a</span> cinefilia
+                        </h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, architecto. Id numquam voluptates praesentium ut, quo, repellat deleniti iusto tempore odio ea aspernatur. Sapiente modi expedita animi neque est soluta.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="premiacoes">
+            <div class="container pt-5 pb-5">
+                <div class="row mb-4">
+                    <h2 class="text-center"><span class="text-colored">Algumas</span> Premiações</h2>
+                </div>
+                <div class="row">
+                    <article class="col-md-4">
+                        <img src="img/premiacoes/premio-br.jpg" alt="" class="w-100 rounded mb-3">
+                        <h3 class="fs-4">
+                            <i class="bi bi-award"></i>
+                            Grande Prêmio do Cinema Brasileiro
+                        </h3>
+                        <p>
+                            O Grande Prêmio do Cinema Brasil (popularmente conhecido como Prêmio Grande Otelo) é o prêmio mais importante do cinema brasileiro, outorgado anualmente pela Academia Brasileira de Cinema com a finalidade de premiar os melhores filmes e condecorar a excelência dos melhores profissionais em cada uma das diversas especialidades do setor.
+                        </p>
+                    </article>
+                    <article class="col-md-4">
+                        <img src="img/premiacoes/cannes-copy.png" alt="" class="w-100 rounded mb-3">
+                        <h3 class="fs-4">
+                            <i class="bi bi-award"></i>
+                            Cannes Lions
+                        </h3>
+                        <p>
+                            O Festival de Criatividade de Cannes (em inglês Cannes Lions International Festival of Creativity) foi criado pela SAWA (Screen Advertising Worlds Agencies), hoje pertence a Ascential plc e é realizado na cidade de Cannes, na Riviera Francesa. Foi criado em 1953, e se tornou o mais importante prêmio da publicidade mundial. Geralmente é realizado no mês de junho.
+                        </p>
+                    </article>
+                    <article class="col-md-4">
+                        <img src="img/premiacoes/oscar.jpg" alt="" class="w-100 rounded mb-3">
+                        <h3 class="fs-4">
+                            <i class="bi bi-award"></i>
+                            Oscar
+                        </h3>
+                        <p>
+                            Oscar, oficialmente chamado de Prêmios da Academia, é uma cerimônia de premiação anual da Academia de Artes e Ciências Cinematográficas, fundado em Los Angeles em 1927, que presenteia anualmente os profissionais da indústria cinematográfica. É considerado o prêmio de reconhecimento à excelência do trabalho e conquistas na arte da produção cinematográfica.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="generos">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center mb-4 mt-5">
+                        <span class="text-colored">Genêros</span> de Filmes
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column">
+                            <button type="button" class="nav-link active fw-bold text-start fs-5" data-bs-toggle="tab" data-bs-target="#terror">
+                                Terror
+                            </button>
+                            <button type="button" class="nav-link fw-bold text-start fs-5" data-bs-toggle="tab" data-bs-target="#animacao">
+                                Animação
+                            </button>
+                            <button type="button" class="nav-link fw-bold text-start fs-5" data-bs-toggle="tab" data-bs-target="#fantasia">
+                                Fantasia
+                            </button>
+                            <button type="button" class="nav-link fw-bold text-start fs-5" data-bs-toggle="tab" data-bs-target="#comedia">
+                                Comédia
+                            </button>
+                            <button type="button" class="nav-link fw-bold text-start fs-5" data-bs-toggle="tab" data-bs-target="#drama">
+                                Drama
+                            </button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content mb-5">
+                            <div class="tab-pane active" id="terror">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="img/filmes/midsommar.png" alt="" class="w-100 mb-3 rounded">
+                                        <h4>Midssomar</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dicta nam. Aliquam minima, modi ea consequuntur accusamus harum dicta a ut earum labore iusto nisi quia illum amet maxime doloremque.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/filmes/midsommar.png" alt="" class="w-100 mb-3 rounded">
+                                        <h4>Midssomar</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dicta nam. Aliquam minima, modi ea consequuntur accusamus harum dicta a ut earum labore iusto nisi quia illum amet maxime doloremque.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/filmes/midsommar.png" alt="" class="w-100 mb-3 rounded">
+                                        <h4>Midssomar</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dicta nam. Aliquam minima, modi ea consequuntur accusamus harum dicta a ut earum labore iusto nisi quia illum amet maxime doloremque.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="animacao">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="img/filmes/totoro.jpg" alt="" class="w-100 mb-3 rounded">
+                                        <h4>Meu Amigo Totoro</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dicta nam. Aliquam minima, modi ea consequuntur accusamus harum dicta a ut earum labore iusto nisi quia illum amet maxime doloremque.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/filmes/totoro.jpg" alt="" class="w-100 mb-3 rounded">
+                                        <h4>Meu Amigo Totoro</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dicta nam. Aliquam minima, modi ea consequuntur accusamus harum dicta a ut earum labore iusto nisi quia illum amet maxime doloremque.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/filmes/totoro.jpg" alt="" class="w-100 mb-3 rounded">
+                                        <h4>Meu Amigo Totoro</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dicta nam. Aliquam minima, modi ea consequuntur accusamus harum dicta a ut earum labore iusto nisi quia illum amet maxime doloremque.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="fantasia">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="img/filmes/HP.jpg" alt="" class="w-100 mb-3 rounded">
+                                        <h4>Harry Potter</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dicta nam. Aliquam minima, modi ea consequuntur accusamus harum dicta a ut earum labore iusto nisi quia illum amet maxime doloremque.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/filmes/HP.jpg" alt="" class="w-100 mb-3 rounded">
+                                        <h4>Harry Potter</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dicta nam. Aliquam minima, modi ea consequuntur accusamus harum dicta a ut earum labore iusto nisi quia illum amet maxime doloremque.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/filmes/HP.jpg" alt="" class="w-100 mb-3 rounded">
+                                        <h4>Harry Potter</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dicta nam. Aliquam minima, modi ea consequuntur accusamus harum dicta a ut earum labore iusto nisi quia illum amet maxime doloremque.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="comedia">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="img/filmes/mascara.jpg" alt="" class="w-100 mb-3 rounded">
+                                        <h4>O Máscara</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dicta nam. Aliquam minima, modi ea consequuntur accusamus harum dicta a ut earum labore iusto nisi quia illum amet maxime doloremque.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/filmes/mascara.jpg" alt="" class="w-100 mb-3 rounded">
+                                        <h4>O Máscara</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dicta nam. Aliquam minima, modi ea consequuntur accusamus harum dicta a ut earum labore iusto nisi quia illum amet maxime doloremque.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/filmes/mascara.jpg" alt="" class="w-100 mb-3 rounded">
+                                        <h4>O Máscara</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dicta nam. Aliquam minima, modi ea consequuntur accusamus harum dicta a ut earum labore iusto nisi quia illum amet maxime doloremque.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="drama">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="img/filmes/central-do-brasil.jpg" alt="" class="w-100 mb-3 rounded">
+                                        <h4>Central do Brasil</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dicta nam. Aliquam minima, modi ea consequuntur accusamus harum dicta a ut earum labore iusto nisi quia illum amet maxime doloremque.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/filmes/central-do-brasil.jpg" alt="" class="w-100 mb-3 rounded">
+                                        <h4>Central do Brasil</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dicta nam. Aliquam minima, modi ea consequuntur accusamus harum dicta a ut earum labore iusto nisi quia illum amet maxime doloremque.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="img/filmes/central-do-brasil.jpg" alt="" class="w-100 mb-3 rounded">
+                                        <h4>Central do Brasil</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, dicta nam. Aliquam minima, modi ea consequuntur accusamus harum dicta a ut earum labore iusto nisi quia illum amet maxime doloremque.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center mt-5 mb-5"><span class="text-colored">Fale</span> Conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <form class="me-5 mb-5">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fs-5">Seu nome</label>
+                                <input type="text" class="form-control input-outline" id="nome" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fs-5">Seu email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fs-5">Seu telefone (opcional)</label>
+                                <input type="tel" class="form-control" id="telefone">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fs-5">Seu mensagem</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row">
+                            <h3 class="fs-4">
+                                <span class="text-colored"><i class="bi bi-hand-thumbs-up-fill"></i></span>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li>
+                                    <a href="#">
+                                        <i class="bi bi-facebook fs-3 text-colored"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="bi bi-instagram fs-3 text-colored ms-2 me-2"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp fs-3 text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3>
+                                <span class="text-colored">
+                                    <i class="bi bi-cursor-fill fs-4"></i>
+                                </span>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo n°6, Bairro Python - Ceará - CE
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
